@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "IBM Plex Serif", serif;
+  }
+  
+  body {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(-45deg, #3ca84cad, #1f18dd);
+  }
+  .header {
+    margin: 120px auto;
+    max-width: 300px;
+    width: 100%;
+    background: #d8e4bf;
+    padding: 25px;
+    border-radius: 5px;
+  }
+  .header h1 {
+    
+    font-size: 40px;
+    color: rgb(20, 1, 18)
+  }
+  .input-section {
+    padding: 20px 0px;
+    display: flex;
+  }
+  form input {
+    font-size: 19px;
+    border: none;
+    height: 40px;
+    border-radius: 3px;
+    padding-left: 15px;
+    outline: none;
+    max-width: 250px;
+  }
+  .input-section button {
+    transition-duration: 1000ms;
+    transition: 0.4s;
+    padding: 9px 10px;
+    height: 40px;
+    border: none;
+    background: yellow;
+    cursor: pointer;
+    margin-left: 8px;
+    border-radius: 5px;
+    margin-top: 8%;
+  }
+  
+  .input-section button:hover {
+    transform: scale(1.2);
+  
+    background: yellowgreen;
+  }
+  .input-section button i {
+    font-size: 14px;
+    color: black;
+    font-size: 20px;
+  }
+  .input-section button i:hover {
+    color: black;
+  }
+  
+  .todo-list li {
+    list-style: none;
+    position: relative;
+    height: 46px;
+    line-height: 46px;
+    background: #f2f2f2;
+    margin-bottom: 10px;
+    border: 10px;
+    padding: 0px 10px;
+    cursor: default;
+    overflow: hidden;
+    font-weight: bold;
+  }
+  .todo-list li span {
+    position: absolute;
+    right: -40px;
+    cursor: pointer;
+    font-size: 20px;
+    transition-duration: 1000ms;
+    transition: 0.4s;
+    padding-right: 4%;
+  }
+  .todo-list li:hover span {
+    right: 0px;
+  }
+  .todo-list li span:hover {
+    transform: scale(1.3);
+    color: red;
+  }
+  
+  .footer {
+    margin: 5%;
+    width: 94%;
+    position: fixed;
+    text-align: end;
+  }
+  .footer h1 {
+    font-size: 20px;
+    font-weight: 400;
+  }
